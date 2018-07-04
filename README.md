@@ -1,5 +1,5 @@
-# SketchDLC
-SketchDLC is based on the popular deep learning framework [MXNet](https://github.com/apache/incubator-mxnet), and I just modify some source code files to capture the communication trace file. Therefore, the file list is almost the same with [MXNet](https://github.com/apache/incubator-mxnet).
+# SketchDLC -- A Sketch on the distributed deep learning communication
+SketchDLC is based on the popular deep learning framework [MXNet](https://github.com/apache/incubator-mxnet), and I just modify some source code files to capture the communication trace file. Therefore, the file list is almost the same with [MXNet](https://github.com/apache/incubator-mxnet). SketchDLC is proposed to measure the behaviors of distributed deep learning communications.
 
 # Features
 * SketchDLC is applicable to clusters of different scales.
