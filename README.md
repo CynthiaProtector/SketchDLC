@@ -4,7 +4,7 @@ SketchDLC is based on the popular deep learning framework [MXNet](https://github
 # Features
 * SketchDLC is applicable to clusters of different scales.
 * Each node will have its own trace file after the capturing process.
-* You need to modify the zmq_van.h to assign your own file paths, and then compile the whole project again before capturing the trace files.
+* You need to modify the [zmq_van.h](https://github.com/CynthiaProtector/SketchDLC/blob/master/ps-lite/src/zmq_van.h) to assign your own file paths, and then compile the whole project again before capturing the trace files.
 
 # Ask Questions
 Please send emails to xuyemaovip@nudt.edu.cn for more details.
