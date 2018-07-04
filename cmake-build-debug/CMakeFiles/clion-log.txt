@@ -1,0 +1,35 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/xuyemao/Desktop/experiment_tf/Mxnet/mxnet-centos7-final
+-- The C compiler identification is AppleClang 9.0.0.9000039
+-- The CXX compiler identification is AppleClang 9.0.0.9000039
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test SUPPORT_CXX11
+-- Performing Test SUPPORT_CXX11 - Success
+-- Performing Test SUPPORT_CXX0X
+-- Performing Test SUPPORT_CXX0X - Success
+-- Performing Test SUPPORT_MSSE2
+-- Performing Test SUPPORT_MSSE2 - Success
+-- Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_RT_LIBRARY) 
+--  MKL not found
+-- Could NOT find MKL (missing:  MKL_INCLUDE_DIR MKL_RT_LIBRARY) 
+-- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+CMake Error at cmake/Modules/FindOpenBLAS.cmake:82 (MESSAGE):
+  Could not find OpenBLAS
+Call Stack (most recent call first):
+  mshadow/cmake/mshadow.cmake:26 (find_package)
+  CMakeLists.txt:172 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/xuyemao/Desktop/experiment_tf/Mxnet/mxnet-centos7-final/cmake-build-debug/CMakeFiles/CMakeOutput.log".
